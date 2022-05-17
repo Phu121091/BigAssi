@@ -1,0 +1,40 @@
+
+.item{
+    border-radius: 4px;
+    padding: 7px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+p{
+    color: white;
+    font-size: 18px;
+}
+
+span{
+    margin-bottom: 0 !important;
+    cursor: pointer;
+}
+.date{
+    width: 80px;
+    border: 1px solid white;
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+}
+.name{
+    flex: 1;
+    padding-left: 10px;
+    font-size: 35px;
+}
+.price{
+    padding: 10px;
+    border: 1px solid white;
+    background-color: blueviolet;
+    border-radius: 10px;
+    margin-right: 5px;
+}

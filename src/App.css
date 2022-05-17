@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+#root{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f0c45;
+    flex-direction: column;
+    align-items: center;
+}
+#section{
+    width: 100%;
+    max-width: 750px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+#section .add-form{
+    min-width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    background-color: violet;
+    border-radius: 6px;
+    padding: 30px;
+}
+form{
+    width: 100%;
+}
+.icon{
+    display: block;
+    margin-bottom: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button-group{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.list-expense{
+    border-radius: 4px;
+    background-color: #08071a;
+    padding: 15px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Filter{
+    background-color: black;
+    color: aliceblue;
+    padding:  0px 15px;
+}
+.totallist{
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+.tt{
+    width: 6%;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #0f0c45;
+    font-size: 10px;
+    padding: 4px;
 }
